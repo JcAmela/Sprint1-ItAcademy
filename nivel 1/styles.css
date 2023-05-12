@@ -1,0 +1,144 @@
+/* Estilos generales */
+* {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Contenedor principal */
+.padre {
+  display: flex;
+  background-color: white;
+  flex-flow: column nowrap;
+}
+
+.header {
+  background-color: #000;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.menu {
+  background-color: #2d4059;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100px;
+  align-items: center;
+}
+
+.logo {
+  background: #ea5455;
+  background-image: url("nivel 2/img/header.jpg");
+  flex: 1 1 auto;
+  height: 30px;
+}
+
+.nav {
+  background-color: #ea5455;
+  flex: 5 1 auto;
+  height: 30px;
+}
+
+.social {
+  background-color: #ea5455;
+  flex: 1 1 auto;
+  height: 30px;
+}
+
+.texto-principal {
+  background-color: #f07b3f;
+}
+
+.texto-principal h1 {
+  background-color: #ffd460;
+  text-align: center;
+}
+
+/* Sección principal */
+.section {
+  background-color: #000;
+  display: flex;
+}
+
+/* Contenedor de artículos */
+.articulos {
+  background-color: #4e4e6a;
+  flex: 2 1 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* Artículo */
+.article {
+  background-color: #1f6cb0;
+  flex: 1 1 40%;
+}
+
+/* Navegación */
+.navegacion {
+  background-color: #70a3c4;
+  flex: 1 1 100%;
+}
+
+/* Aside */
+.aside {
+  background-color: #f73f52;
+  flex: 1 1 auto;
+}
+
+/* Publicidad */
+.publicidad {
+  background-color: #ffea85;
+}
+
+/* Pie de página */
+.footer {
+  background-color: #000;
+  justify-content: center;
+  display: flex;
+}
+
+.pie {
+  background-color: #e6af2e;
+  width: 100%;
+}
+
+/* Media queries*/
+@media all and (max-width: 800px) {
+  .section {
+    flex-direction: column;
+    background-color: yellow;
+  }
+
+  .aside {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .articulos {
+    flex-direction: column;
+    background-color: #09506F;
+  }
+  .article {
+    background-color: #61959C;
+  }
+  .navegacion {
+    background-color: #A3DDCB;
+  }
+  .publicidad {
+    background-color: #FDB36B;
+  }
+  .aside {
+    background-color: #FD7B54;
+  }
+  .menu {
+    flex-direction: column;
+    height: auto;
+  }
+  .logo, .nav, .social {
+    width: 100%;
+  }
+}

@@ -1,0 +1,197 @@
+/* CODIGO GENERAL */
+* {
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.padre {
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("img/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+}
+
+/* Menú en el Header */
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100px;
+}
+
+.menu a i{
+  margin: 5px;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo img {
+  width: 30%;
+}
+
+.logo:hover{
+  opacity: 0.5;
+}
+
+.nav {
+  display: flex;
+  flex: 5;
+  justify-content: space-around;
+  margin-right: auto;
+}
+.nav a,
+.social a {
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.5;
+  margin: 10px;
+}
+
+.nav a:hover,
+.social a:hover {
+  opacity: 1;
+}
+
+.social {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 170px;
+}
+
+.texto-principal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texto-principal h1 {
+  text-align: center;
+  line-height: 1.6;
+  font-weight: 300;
+  line-height: 1.6;
+  font-family: 'lora', serif;
+  font-size: 21px;
+  color: rgba(243,154,121,0.75);
+  background-color: rgba(0, 0, 0, .1);
+  margin: 0;
+  width: 80%;
+  height: 130px;
+  padding-top: 50px;
+}
+
+/* Sección principal */
+.section {
+  background-color: #D8D7D7;
+  display: flex;
+}
+
+/* Contenedor de artículos */
+.articulos {
+  background-color: #F5F1F1;
+  flex: 2 1 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* Artículo */
+.article {
+  background-color: #F5F1F1;
+  flex: 1 1 40%;
+}
+
+/* esto hay que corregirlo, lo he hecho yo */
+.article img{
+  width: 50%;
+}
+
+/* Navegación */
+.navegacion {
+  background-color: #70a3c4;
+  flex: 1 1 100%;
+}
+
+/* Aside */
+.aside {
+  background-color: #f73f52;
+  flex: 1 1 auto;
+}
+
+/* Publicidad */
+.publicidad {
+  background-color: #ffea85;
+}
+
+/* Pie de página */
+.footer {
+  background-color: #000;
+  justify-content: center;
+  display: flex;
+}
+
+.pie {
+  background-color: #e6af2e;
+  width: 100%;
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+@media all and (max-width: 800px) {
+  .section {
+    flex-direction: column;
+  }
+
+  .aside {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .social{
+    padding: 0;
+    margin: 0;
+  }
+  .texto-principal h1{
+    width: 100%;
+    padding-top: 0px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .articulos {
+    flex-direction: column;
+    background-color: #09506F;
+  }
+
+  .article {
+    background-color: #61959C;
+  }
+
+  .navegacion {
+    background-color: #A3DDCB;
+  }
+
+  .publicidad {
+    background-color: #FDB36B;
+  }
+
+  .aside {
+    background-color: #FD7B54;
+  }
+
+  .menu {
+    flex-direction: column;
+    height: auto;
+  }
+}
