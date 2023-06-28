@@ -1,6 +1,6 @@
 # 🚀 IT Academy Barcelona Activa - Sprint 1 🚀
 
-👋 ¡Hola! Mi nombre es **Juan Carlos Amela**. Soy un desarrollador web apasionado y siempre buscando mejorar mis habilidades. Este repositorio es una demostración de mi compromiso con el aprendizaje y el dominio de las tecnologías web más modernas.
+👋 ¡Hola! Mi nombre es **Juan Carlos Amela**. Soy un desarrollador web y siempre estoy buscando mejorar mis habilidades. Este repositorio es una demostración de mi compromiso con el aprendizaje y el dominio de las tecnologías web más modernas.
 
 Puedes acceder al proyecto a través de este [enlace](https://jcamela.github.io/Sprint1-ItAcademy.github.io/).
 
