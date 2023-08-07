@@ -2,7 +2,7 @@
 
 👋 ¡Hola! Mi nombre es **Juan Carlos Amela**. Soy un desarrollador web y siempre estoy buscando mejorar mis habilidades. Este repositorio es una demostración de mi compromiso con el aprendizaje y el dominio de las tecnologías web más modernas.
 
-Puedes acceder al proyecto a través de este [enlace](https://jcamela.github.io/Sprint1-ItAcademy.github.io/).
+ [Puedes acceder al proyecto a través de este enlace](https://jcamela.github.io/Sprint1-ItAcademy/).
 
 Aquí, presento los proyectos que he completado para los niveles 1 y 2 del primer sprint en la IT Academy de Barcelona Activa. Estos proyectos implican una serie de tareas de maquetación basadas en una imagen proporcionada.
 
